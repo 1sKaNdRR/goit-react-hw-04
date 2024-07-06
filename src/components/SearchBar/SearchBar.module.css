@@ -1,0 +1,25 @@
+.headerWrap{
+    display: flex;
+    background-color: #4a4ac0;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.button{
+    position: absolute;
+    left: 0;
+    border: none;
+    background: none;
+    padding: 0 10px;
+}
+.searchArea{
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
